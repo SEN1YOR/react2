@@ -1,14 +1,11 @@
 import React from "react";
-import Header from "./components/Header";
-import Ortasi from "./components/Ortasi";
-import Foter from "./components/Foter";
+import Main from "./components/Main";
 const App = () => {
   return (
-    <div>
-      <Header/>
-      <Ortasi/>
-      <Foter/>
-    </div>
+    <>
+      <Main/>
+      
+    </>
   );
 };
 
